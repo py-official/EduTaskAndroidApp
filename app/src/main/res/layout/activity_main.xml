@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="290dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/button1x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="1x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="2x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="3x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="4x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="5x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="6x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7x1"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="7x1"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="1x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="2x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="3x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="4x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="5x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="6x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7x2"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="76dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="7x2"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="1x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="2x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="3x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="4x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="5x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="6x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7x3"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="7x3"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="1x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="2x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="3x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="4x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="5x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="6x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7x4"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="156dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="7x4"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="1x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="2x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="3x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="4x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="5x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="6x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7x5"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="196dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="7x5"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button1x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="1x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="2x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="3x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="4x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="5x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button6x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="208dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="6x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button7x6"
+            android:layout_width="30dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="@color/alpha_0"
+            android:padding="1dp"
+            android:tag="7x6"
+            android:text="@string/NotSetValueNum"
+            android:textColor="@color/perfect_black"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/monday"
+            app:layout_constraintBottom_toTopOf="@+id/button1x1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/textTues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/tuesday"
+            app:layout_constraintBottom_toTopOf="@+id/button2x1"
+            app:layout_constraintStart_toEndOf="@+id/textMon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textWed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/wednesday"
+            app:layout_constraintBottom_toTopOf="@+id/button3x1"
+            app:layout_constraintStart_toEndOf="@+id/textTues"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textThur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:text="@string/thursday"
+            app:layout_constraintBottom_toTopOf="@+id/button4x1"
+            app:layout_constraintStart_toEndOf="@+id/textWed"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textFri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="@string/friday"
+            app:layout_constraintBottom_toTopOf="@+id/button5x1"
+            app:layout_constraintStart_toEndOf="@+id/textThur"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textSat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="@string/saturday"
+            app:layout_constraintBottom_toTopOf="@+id/button6x1"
+            app:layout_constraintStart_toEndOf="@+id/textFri"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textSun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="@string/sunday"
+            app:layout_constraintBottom_toTopOf="@+id/button7x1"
+            app:layout_constraintStart_toEndOf="@+id/textSat"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!--
+    <FrameLayout
+        android:layout_width="239dp"
+        android:layout_height="101dp"
+        tools:layout_editor_absoluteY="775dp">
+
+        <TextView
+            android:id="@+id/LessonNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="1"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:height="12dp"
+            android:paddingTop="0dp"
+            android:text="Английский"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:text="8:30-9:10"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/HomeWorkIcon"
+            android:layout_width="18dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/homeimage" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="876dp">
+
+        <TextView
+            android:id="@+id/LessonNum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="1"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:height="12dp"
+            android:paddingTop="0dp"
+            android:text="Английский"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:text="8:30-9:10"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/HomeWorkIcon2"
+            android:layout_width="18dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/homeimage" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="900dp">
+
+        <TextView
+            android:id="@+id/LessonNum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="1"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:height="12dp"
+            android:paddingTop="0dp"
+            android:text="Английский"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonTime3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:text="8:30-9:10"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/HomeWorkIcon3"
+            android:layout_width="18dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/homeimage" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="924dp">
+
+        <TextView
+            android:id="@+id/LessonNum4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="1"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:height="12dp"
+            android:paddingTop="0dp"
+            android:text="Английский"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/LessonTime4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:text="8:30-9:10"
+            android:textColor="@color/perfect_black_60per"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/HomeWorkIcon4"
+            android:layout_width="18dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/homeimage" />
+
+    </FrameLayout>
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent1"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/test">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent2"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon2"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent3"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon3"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/test">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent4"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon4"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent5"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon5"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/test">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent6"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon6"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent7"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon7"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/test">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent8"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon8"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent9"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon9"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/HomeWorkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/test">
+
+                <TextView
+                    android:id="@+id/HomeWorkContent10"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="5dp"
+                    android:width="230dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonNum10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="1"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonName10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:height="12dp"
+                    android:paddingTop="0dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/LessonTime10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/NotSetValueStr"
+                    android:textColor="@color/perfect_black_60per"
+                    android:textSize="8sp" />
+
+                <ImageView
+                    android:id="@+id/HomeWorkIcon10"
+                    android:layout_width="18dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="3dp"
+                    app:srcCompat="@drawable/hometest" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textYearMonth"
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:text="@string/NotSetValueStr"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

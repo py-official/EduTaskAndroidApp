@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EduTask</string>
+    <string name="monday">пн</string>
+    <string name="tuesday">вт</string>
+    <string name="wednesday">ср</string>
+    <string name="thursday">чт</string>
+    <string name="friday">пт</string>
+    <string name="saturday">сб</string>
+    <string name="sunday">вс</string>
+    <string name="NotSetValueStr">Er</string>
+    <string name="NotSetValueNum">00</string>
+
+</resources>
